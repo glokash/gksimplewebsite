@@ -1,0 +1,114 @@
+/* CSS - Cascading Style Sheet */
+
+/* Body */
+body {
+	background-color: #AEAEAE;
+	margin:0;
+}
+
+/* Site Wrapper */
+.wrapper {
+	margin: 0 auto;
+/* width: 80%; commenting this out so 
+the contents of the page can take up 
+more of the width of the page */
+}
+
+/* Site Header */
+.header {
+	background-color: purple;
+	padding: 30px;
+}
+
+.header .logo {
+	background-color: #AEAEAE;
+	/* display: inline-block; this wasn't working out for center alignment of the logo so I changed it to just block */
+	display: block;
+	font-size: 48px;
+	padding: 15px 50px;
+	text-transform: uppercase;
+	text-align: center;
+	text-shadow: 3px 2px purple;
+}
+
+.header .pic { 
+	/*align-self: center; this did nothing...*/
+	float: auto;
+}
+
+/* Site Navigation */
+.navigation {
+	background-color: #A5A3A4;
+}
+
+.navigation ul {
+	margin: 0;
+	padding-left: 0;
+}
+
+.navigation li {
+	display: inline-block;
+	padding: 15px 20px;
+}
+
+.navigation a {
+	color: #fff;
+	text-decoration: none;
+	/* text-transform: uppercase; 
+	this is commented out because 
+	I think the site's navigation 
+	links look better when they're 
+	not capitalized */
+}
+
+/* Main Div */
+.main {
+	background-color: #F3Eff0;
+	color: purple;
+	/*text-shadow: 3px 2px black; this made the text harder to read */
+	float: left;
+	height:600px;
+	width: 70%;
+	background: url(../img/PoopsieLapFace.PNG);
+	background-size: 400px 450px;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}
+
+.main h1 {
+	padding-left: 35px;
+}
+
+.main p {
+	padding: 5px 35px;
+}
+
+/* Sidebar Div */
+.sidebar {
+	background-color: #cecccd;
+	float: left;
+	height: 600px;
+	width: 30%;
+	text-align: center;
+}
+
+.sidebar h2 {
+	padding-left: 20px;
+	padding-top: 50px;
+	color: purple;
+	text-decoration: underline;
+}
+
+/* Site Footer */
+.footer {
+	clear: both;
+	background-color: #514f50;
+	font-size: 14px;
+	padding: 9px 0;
+}
+
+.footer p {
+	margin: 0;
+	color: #fff;
+	padding-left: 35px;
+}
